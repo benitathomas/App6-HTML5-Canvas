@@ -74,7 +74,7 @@ console.log("This file last modified " + docMod); // generates message in javaSc
 	<p><center><canvas id="a" width="300" height="225" style="border:1px solid #000000;"></center></canvas></p> <!-- declares canvas id "a" and the width, height, and boarder style of the canvas-->
 	
 	<script> // function that draws the rectangle
-	function drawRect() { // declares function so it can be called later
+	function drawRect() { // declares function for it to be called later
   	var a = document.getElementById("a"); // puts function on canvas with id "a"
   	var context = a.getContext("2d"); // draws 2d image on canvas
 	var gradient = context.createRadialGradient(75, 50, 5, 90, 60, 100); // creates a gradient for the rectangle
