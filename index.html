@@ -78,7 +78,7 @@ console.log("This file last modified " + docMod); // generates message in javaSc
   	var a = document.getElementById("a"); // puts function on canvas with id "a"
   	var context = a.getContext("2d"); // draws 2d image on canvas
 	var gradient = context.createRadialGradient(75, 50, 5, 90, 60, 100); // creates a gradient for the rectangle
-		gradient.addColorStop(0, "purple"); // displays purple as the center color
+		gradient.addColorStop(0, "purple"); // displays red as the center color
 		gradient.addColorStop(1, "black"); // displays black as outer color
 		context.fillStyle = gradient //fills rectangle with created gradient
   		context.fillRect(25, 25, 125, 100); // final display for rectangle (x, y, width, height)	
